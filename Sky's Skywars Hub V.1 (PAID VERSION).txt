@@ -175,6 +175,10 @@ BasicSection:NewButton("Infinite Yield", "abuse cry babies", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
+MainSection:NewButton("Sonic (FE)", "use baseplate for before this if you're dumb", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/K7YSDZsB"))()  
+end)
+
 MainSection:NewButton("What another one", "use baseplate for before this if you're dumb", function()
     loadstring(game:HttpGetAsync("https://bit.ly/3IUKqjB"))()  
 end)
