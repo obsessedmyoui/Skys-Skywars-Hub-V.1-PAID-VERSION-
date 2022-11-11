@@ -37,10 +37,6 @@ BasicSection:NewButton("Baseplate", "a huge platform underneath", function()
 	end
 end)
 
-BasicSection:NewButton("Paw's Godmode", "god", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/hwNz1yVW"))()
-end)
-
 BasicSection:NewButton("AntiCheat Bypass", "bypass", function()
 	if game:GetService("Players").LocalPlayer.PlayerGui.Extra:FindFirstChild("Local") then
 		local plr       = game:GetService("Players").LocalPlayer
