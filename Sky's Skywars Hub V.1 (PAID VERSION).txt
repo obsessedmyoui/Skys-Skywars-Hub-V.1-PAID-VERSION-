@@ -161,8 +161,8 @@ BasicSection:NewButton("Infinite Yield", "abuse cry babies", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-MainSection:NewButton("What another one", "use baseplate for before this if you're dumb", function()
-    print("Clicked)
+MainSection:NewButton("7 Personalities (FE)", "use baseplate for before this if you're dumb", function()
+    loadstring(game:HttpGetAsync("https://bit.ly/3IUKqjB"))()
 end)
 
 PlayerSection:NewSlider("Walkspeed", "SONIC?!?", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
